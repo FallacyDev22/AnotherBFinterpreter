@@ -52,7 +52,7 @@ void get_input() {
 }
 bool get_code() {
 	ifstream file;
-	file.open("data.bf");
+	file.open("src/data.bf");
 	if (!file.is_open()) {
 		cout << "DATA ERROR: 'data.bf' not founded.";
 		return false;
